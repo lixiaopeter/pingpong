@@ -1,0 +1,40 @@
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(180deg,#0f172a,#071233);
+  color: #e6eef8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.game {
+  text-align: center;
+  width: 880px;
+}
+
+h1 {
+  margin: 12px 0 4px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+#scoreboard {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+canvas {
+  background: #02102a;
+  display: block;
+  margin: 0 auto;
+  border-radius: 6px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.02);
+}
+
+.controls {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #9fb4d6;
+}
